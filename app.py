@@ -9,7 +9,7 @@ import os
 
 file_id= "12g488qXo7HbhySYRNPpQ8uVvsqI8RSe1"
 url = 'https://drive.google.com/file/d/12g488qXo7HbhySYRNPpQ8uVvsqI8RSe1/view?usp=sharing'
-model_path="trained_plant_disease_model.keras"   
+model_path="trained_plant_disease_model.keras"    
 
 if not os.path.exists(model_path):
     st.warning("Downloading model from Google Drive...")
